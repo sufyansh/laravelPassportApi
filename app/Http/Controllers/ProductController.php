@@ -7,7 +7,7 @@ use App\Http\Controllers\BaseController as BaseController;
 use App\Models\Product;
 use Validator;
 use App\Http\Resources\Product as ProductResource;
-class ProductController extends Controller
+class ProductController extends BaseController
 {
     
     /**
